@@ -16,7 +16,7 @@ const buffering = client.emojis.get("458528361195503617");
 
 
 const DBL = require("dblapi.js");
-const dbl = new DBL('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODUwNDM2MjgzOTQ0MTQxOSIsImJvdCI6dHJ1ZSwiaWF0IjoxNTMxNjA4NTI0fQ.IL6n52_oJ2EJ8bFibb8bMssl30Rz6mLDQa8B20hNiYE', client);
+const dbl = new DBL('-', client);
 
 // Optional events
 dbl.on('posted', () => {
